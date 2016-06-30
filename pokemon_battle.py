@@ -58,7 +58,7 @@ while player['hp'] > 0 and cpu['hp'] > 0:
 
 if player['hp'] <= 0:
   print("\nYou lost! Better luck next time!")
-elif cpuselection <= 0:
+elif cpu['hp'] <= 0:
   print("You won! Congrats!")
 
 
